@@ -9,11 +9,14 @@ const CardTech = ({ technologie }) => {
       width:'80px',
       height:'90px',
       objectFit:'contain',
-    /*   filter:'drop-shadow(0px 0px 3px #993488)' */
+      filter:'drop-shadow(0px 0px 1px #fff)',
+    '&:hover':{
+        filter:'drop-shadow(0px 0px 3px #993488)'
+    }
     }
     return (
         <>
-            <Grid display='flex' alignItems='center' justifyContent='center' mt={7} item md={2}>
+            <Grid item display='flex' height='90px' alignItems='center' justifyContent='center' mt={7}  md={2}  >
                 <img  style={styleImg} src={img} alt={name} />
             </Grid>
 

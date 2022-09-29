@@ -9,10 +9,13 @@ export default function Home() {
   return (
     <>
 
-      <Layout>
+      <Layout style={{display:'flex',flexDirection:'column', 
+          alignItems:'center',justifyContent:'center'}} >
         <Container style={{
           backgroundColor: '#18181B', minHeight: '100vh',
-          fontFamily: 'Montserrat Alternates, sans-serif', fontWeight: '300'
+          fontFamily: ' sans-serif', fontWeight: '300',
+          display:'flex',flexDirection:'column', 
+          alignItems:'center',justifyContent:'center'
         }} >
           <Navbar />
           <Main/>

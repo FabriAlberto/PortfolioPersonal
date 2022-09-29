@@ -25,6 +25,10 @@ a {
   }
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .imgStyled{
   width: 400px;
   animation-name: move;
