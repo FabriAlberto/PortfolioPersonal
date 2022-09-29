@@ -30,7 +30,7 @@ const Project = ({ project }) => {
 
                     {project.technologies.map((tech) => {
                         return (
-                            <Button sx={{ color: '#A0A0A0' }} variant='span'> {tech}</Button>
+                            <Button key={tech} sx={{ color: '#A0A0A0' }} variant='span'> {tech}</Button>
                         )
 
                     })}
