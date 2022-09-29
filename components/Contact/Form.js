@@ -26,7 +26,7 @@ const Form = () => {
                     name='name'
                     error={false}
                     id="standard-basic"
-                    label="Name"
+                    label="Nombre"
                     variant="standard"
                     type='text'
                     sx={{
@@ -38,10 +38,10 @@ const Form = () => {
                 <TextField
                     required
                     color='secondary'
-                    name='company'
+                    name='email'
                     error={false}
                     id="standard-basic"
-                    label="Company"
+                    label="Email"
                     variant="standard"
                     type='text'
                 />
