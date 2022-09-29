@@ -1,9 +1,17 @@
 import React from 'react'
 import { Grid ,Typography,Button,Link} from '@mui/material'
-import { styleFont } from '../StyleFonts/StyleFonts';
+
 import ArrowCircleDownRoundedIcon from '@mui/icons-material/ArrowCircleDownRounded';
+import { Image } from '@mui/icons-material';
+
 const Main = () => {
-   
+ const styleFont={
+    fontFamily:' sans-serif',
+    fontWeight:'bolder',
+    background: 'linear-gradient(135deg,#993488,#5028ff)',
+    WebkitTextFillColor:'transparent', WebkitBackgroundClip:'text',
+    fontWeight:'600'
+  }
     
     const styledBtnDowloading={
       border:'1px solid #8B3491',
