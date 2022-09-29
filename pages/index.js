@@ -4,6 +4,7 @@ import { Container } from '@mui/material';
 import Main from '../components/Main/Main';
 import Habilidades from '../components/Habilidades/Habilidades';
 import Proyectos from '../components/Proyectos/Proyectos';
+import Contact from '../components/Contact/Contact';
 export default function Home() {
 
   return (
@@ -17,10 +18,12 @@ export default function Home() {
           display:'flex',flexDirection:'column', 
           alignItems:'center',justifyContent:'center'
         }} >
-          <Navbar />
+
+          <Navbar/>
           <Main/>
           <Habilidades/>
           <Proyectos/>
+          <Contact/>
         </Container>
 
       </Layout>

@@ -38,7 +38,7 @@ const Navbar = () => {
           <Link href='#init' sx={styleLink}> Inicio </Link>
           <Link href='#skills' sx={styleLink}> Habilidades</Link>
           <Link href='#projects' sx={styleLink}> Proyectos </Link>
-          <Link borderBottom='2px solid red' href='#contact' sx={{ ...styleLink,borderImage: 'linear-gradient(to right, #993488 0%, #5E30AF 100%) 1'}}> Contactame </Link>
+          <Link href='#contact' borderBottom='2px solid red'  sx={{ ...styleLink,borderImage: 'linear-gradient(to right, #993488 0%, #5E30AF 100%) 1'}}> Contactame </Link>
         </Grid>
       </Grid>
 {/* border: '1px solid transparent',
