@@ -33,7 +33,7 @@ const Navbar = () => {
         </Grid>
 
         <Grid item  md={6} display='flex' alignItems='center' justifyContent='space-around' >
-          <Link sx={styleLink}> Inicio </Link>
+          <Link href='#init' sx={styleLink}> Inicio </Link>
           <Link sx={styleLink}> Habilidades</Link>
           <Link sx={styleLink}> Proyectos </Link>
           <Link sx={styleLink}> Contactame </Link>

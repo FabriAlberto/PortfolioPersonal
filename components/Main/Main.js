@@ -1,15 +1,10 @@
 import React from 'react'
 import { Grid ,Typography,Button,Link} from '@mui/material'
-
+import { styleFont } from '../StyleFonts/StyleFonts';
 import ArrowCircleDownRoundedIcon from '@mui/icons-material/ArrowCircleDownRounded';
 const Main = () => {
    
-    const styleFont={
-      fontFamily:' sans-serif',fontWeight:'bolder',
-      background: 'linear-gradient(139deg,#993488,#5E30AF)',
-      WebkitTextFillColor:'transparent', WebkitBackgroundClip:'text',
-      fontWeight:'600'
-    }
+    
     const styledBtnDowloading={
       border:'1px solid #8B3491',
       color:'#A0A0A0',
@@ -19,13 +14,16 @@ const Main = () => {
         transform:'scale(.95)'
       }
     }
-
+    const styleTypography={
+      textShadow:'0px 0px 10px #fff8, 0px 0px 5px #fff8'
+    }
+   
   return (
-   <Grid  container display='flex' alignItems='center' mt={12} sx={{minHeigt:'100vh'}}>
+   <Grid id='init' container display='flex' alignItems='center' mt={12} sx={{minHeigt:'100vh'}}>
       
        <Grid item md={6} display='flex' flexDirection='column' justifyContent='center'>
-       <Typography variant='h2' color='#A0A0A0'>
-        Fabricio ⌨
+       <Typography variant='h2' color='#fff8' sx={styleTypography}>
+        Fabrici<span >o</span> ⌨
        </Typography>
        <Typography variant='h5' color='#A0A0A0' sx={styleFont} >
         DESARROLLADOR FRONTEND

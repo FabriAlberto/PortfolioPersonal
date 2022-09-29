@@ -2,6 +2,8 @@ import Layout from '../components/Layout';
 import Navbar from '../components/Navbar/Navbar'
 import { Container } from '@mui/material';
 import Main from '../components/Main/Main';
+import Habilidades from '../components/Habilidades/Habilidades';
+import Proyectos from '../components/Proyectos/Proyectos';
 export default function Home() {
 
   return (
@@ -14,6 +16,8 @@ export default function Home() {
         }} >
           <Navbar />
           <Main/>
+          <Habilidades/>
+          <Proyectos/>
         </Container>
 
       </Layout>
