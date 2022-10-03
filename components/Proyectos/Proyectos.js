@@ -2,7 +2,7 @@ import { Grid, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
 import Project from './Project'
-import styles from '../fontGradient.module.css'
+import styles from '../../styles/fontGradient.module.css'
 
 const projects=[
   { name:'sportCenter', img:'https://i.postimg.cc/vmJMyW92/sportcenter.png',github:'https://github.com/FabriAlberto/Ecommerce-reactJS',deploy:'https://sportcenter.vercel.app/',technologies:['React','Context','Bootstrap','Router','Firestore','Formik']},

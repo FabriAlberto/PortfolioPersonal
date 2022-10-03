@@ -1,11 +1,12 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
 import { Link, Grid, Box } from '@mui/material'
-import style from './navbar.module.css'
+import style from '../../styles/navbar.module.css'
 import PersonIcon from '@mui/icons-material/Person';
 import ConstructionIcon from '@mui/icons-material/Construction';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import StyleIcon from '@mui/icons-material/Style';
+
 const styleLink = {
   textDecoration: 'none',
   color: '#A0A0A0',
@@ -28,7 +29,7 @@ const Navbar = () => {
   return (
     <>
 
-      <Grid id='init' container md={12} sx={{ height: '100px' }}
+      <Grid id='init' p={3} container md={12} sx={{ height: '100px' }}
         display='flex'>
         <Grid item md={6} display='flex' alignItems='center' >
           <Typography variant="h2" component="h2" color='#fff' sx={styleFont}>

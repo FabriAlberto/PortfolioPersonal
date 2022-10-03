@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, Typography, Box } from '@mui/material'
 import CardTech from './CardTech'
-import styles from '../fontGradient.module.css'
+import styles from '../../styles/fontGradient.module.css'
 
 const technologies = [
     { name: 'HTML', img: 'https://i.postimg.cc/yNbQmwwG/pngwing-com-6.png' },

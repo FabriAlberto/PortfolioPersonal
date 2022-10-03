@@ -1,10 +1,9 @@
 import React from 'react'
-import Image from 'next/image'
 import Form from './Form'
 import { Avatar, Grid, Typography, Box, Link } from '@mui/material'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import styles from '../fontGradient.module.css'
+import styles from '../../styles/fontGradient.module.css'
 const Contact = () => {
 
     const styleFont = {
@@ -16,11 +15,11 @@ const Contact = () => {
     }
     return (
         <>
-            <Grid id='contact' sx={{ marginBottom: '20px' }} p={9} container mt={12} md={12} display='flex' flexDirection='column' alignItems='center' justifyContent='center'>
-                <Typography variant='h4' className={styles.gradientFont}>
+            <Box id='contact' sx={{ marginBottom: '20px',width:'100%',paddingBottom:'50px' }}  mt={12}  display='flex' flexDirection='column' alignItems='center' justifyContent='center'>
+            <Typography variant='h4' className={styles.gradientFont}>
                     CONTACTAME
                 </Typography>
-                <Grid container display='flex' alignItems='center' md={12} mt={13} justifyContent='center' flexWrap='wrap'>
+                <Grid container display='flex' alignItems='center' sm={12} md={12}  mt={13} justifyContent='center' flexWrap='wrap'>
 
 
                     <Grid item md={6} sm={12} xs={12} display='flex' flexDirection='column' alignItems='center' justifyContent='center' >
@@ -43,14 +42,13 @@ const Contact = () => {
                         </Box>
 
                     </Grid> 
-                    <Grid  item md={6} sm={12} xs={12} display='flex' flexDirection='column' alignItems='center' justifyContent='center' >
-
-                        <Form />
+                    <Grid  item   md={6} sm={12} xs={12} display='flex' flexDirection='column' alignItems='center' justifyContent='center' >
+                        <Form  />
                     </Grid>
-                </Grid>
+                </Grid> 
 
 
-            </Grid>
+            </Box>
 
 
 

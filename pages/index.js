@@ -1,5 +1,4 @@
 import Layout from '../components/Layout';
-import Navbar from '../components/Navbar/Navbar'
 import { Container } from '@mui/material';
 import Main from '../components/Main/Main';
 import Habilidades from '../components/Habilidades/Habilidades';
@@ -18,17 +17,17 @@ export default function Home() {
       }} >
         
         <Container style={{
-          backgroundColor: '#18181B', minHeight: '100vh',
+          minHeight: '100vh',
           fontFamily: ' sans-serif', fontWeight: '300',
           display: 'flex', flexDirection: 'column',
           alignItems: 'center', justifyContent: 'center'
         }} >
 
-          <Navbar />
           <Main />
           <Habilidades />
           <Proyectos />
           <Contact />
+
         </Container>
          
     

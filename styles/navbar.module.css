@@ -9,13 +9,12 @@
   position: absolute;
   bottom: 10px;
   position: fixed;
-   background-color: rgba(0, 0, 0, 0.514); 
-  /* background-color: rgba(168, 168, 168, 0.144);  */
+  background-color: rgba(0, 0, 0, 0.514); 
   backdrop-filter: blur(15px);
   z-index: 1111;
-  padding: 10px 15px;
+  padding: 10px 25px;
   border-radius: 20px 20px 0px 0px ;
-
+  
 }
 .styleLinkResponsive{
 
@@ -26,7 +25,6 @@
 .styleIconResponsive{
     color:#632BE0;
     font-size: 2rem;
-    
   
 }
 .styleIconResponsive:hover{
@@ -37,7 +35,6 @@
 @media only screen and (max-width: 900px) {
 
     .navbarRoutes {
-      
       display: none;
     }
     .navbarResponsive{

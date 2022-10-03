@@ -1,8 +1,8 @@
 import React from 'react'
 import { Grid ,Typography,Button,Link} from '@mui/material'
 import ArrowCircleDownRoundedIcon from '@mui/icons-material/ArrowCircleDownRounded';
-import style from '../btn.module.css'
-import styleFont from'../fontGradient.module.css'
+import style from '../../styles/btn.module.css'
+import styleFont from'../../styles/fontGradient.module.css'
 
 const Main = () => {
  
@@ -12,7 +12,7 @@ const Main = () => {
     }
    
   return (
-   <Grid  container display='flex' alignItems='center' mt={12} sx={{minHeigt:'100vh'}}>
+   <Grid  container display='flex' alignItems='center' justifyContent='center' mt={12} sx={{minHeigt:'100vh'}}>
       
        <Grid item md={6} display='flex' flexDirection='column' justifyContent='center'>
        <Typography  variant='h2' color='#fff8' sx={styleTypography}>
@@ -33,7 +33,7 @@ const Main = () => {
          <img className='imgStyled' src='https://maxcode.vercel.app/static/media/header-img.fe6abadd0a518fd15552f72ba14ef5af.svg' alt='img-astronauta'/>
         </Grid>
 
-        <Grid sm={12} md={12}>
+        <Grid sm={12} md={12} >
          <Link sx={{textDecoration:'none'}} href='https://drive.google.com/file/d/1GLNALJKchgZzmrLkqMikXWjJJGue4YFX/view?usp=sharing'  target="_blank" rel="noopener"> 
          <Button className={style.btn}> <ArrowCircleDownRoundedIcon /> Descargar CV </Button>
          </Link>

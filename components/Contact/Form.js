@@ -28,8 +28,6 @@ const Form = () => {
         <>
             <Grid
                 onSubmit={handleSubmit}
-                item
-                md={8}
                 xs={12}
                 p={4}
                 component="form"
@@ -58,9 +56,9 @@ const Form = () => {
                     variant="standard"
                     type='text'
                     sx={{
-                        color: 'red !important'
+                        color: 'red !important',
                     }}
-                    sm={8}
+                   
                 />
 
                 <TextField
