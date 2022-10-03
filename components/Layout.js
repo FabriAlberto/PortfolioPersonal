@@ -7,14 +7,19 @@ const Layout = ({ children }) => {
             <Head>
                 <meta charSet="UTF-8" />
                 <meta name='viewport' content='width=device-width, initial-scae=1.0' />
+              
                 <title>FabriDev</title>
 
             </Head>
 
-            <div className='container' style={{ backgroundColor: '#18181B',display:'flex',justifyContent:'center',alignItems:'center' }} >
+            
+          
+            
+            <div className='container' style={{ backgroundColor: '#18181B', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
                 {children}
             </div>
-
+           
+           
         </>
     )
 }

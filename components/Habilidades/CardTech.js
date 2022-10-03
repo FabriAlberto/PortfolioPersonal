@@ -16,7 +16,7 @@ const CardTech = ({ technologie }) => {
     }
     return (
         <>
-            <Grid item display='flex' height='90px' alignItems='center' justifyContent='center' mt={7} md={2}  >
+            <Grid item display='flex' height='90px' alignItems='center' justifyContent='center' mt={7} xs={6} sm={4} md={2}  >
                 <img style={styleImg} src={img} alt={name} />
             </Grid>
 

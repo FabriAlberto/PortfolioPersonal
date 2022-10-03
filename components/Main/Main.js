@@ -1,8 +1,7 @@
 import React from 'react'
 import { Grid ,Typography,Button,Link} from '@mui/material'
-
 import ArrowCircleDownRoundedIcon from '@mui/icons-material/ArrowCircleDownRounded';
-import { Image } from '@mui/icons-material';
+
 
 const Main = () => {
  const styleFont={
@@ -43,10 +42,12 @@ const Main = () => {
         de poder desafiar mis habilidades y seguir aprendiendo de todo lo lindo que tiene este mundo!.
        </Typography>
        </Grid>
-       <Grid item md={6} display='flex' alignItems='center' justifyContent='center'>
+
+       <Grid item sm={12} md={6} display='flex' alignItems='center' justifyContent='center'>
          <img className='imgStyled' src='https://maxcode.vercel.app/static/media/header-img.fe6abadd0a518fd15552f72ba14ef5af.svg' alt='img-astronauta'/>
         </Grid>
-        <Grid md={12}>
+
+        <Grid sm={12} md={12}>
          <Link sx={{textDecoration:'none'}} href='https://drive.google.com/file/d/1GLNALJKchgZzmrLkqMikXWjJJGue4YFX/view?usp=sharing'  target="_blank" rel="noopener"> 
          <Button sx={{ ...styledBtnDowloading, transition:'.7s'}}> <ArrowCircleDownRoundedIcon /> Descargar CV </Button>
          </Link>

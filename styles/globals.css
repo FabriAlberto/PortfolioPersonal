@@ -50,3 +50,16 @@ html{
 label{
   color:'#A0A0A0'
 }
+
+
+
+
+@media screen and (max-width: 700px) {
+  .imgStyled{
+    width: 100%;
+    animation: none;
+  }
+  #init{
+    justify-content: center;
+  }
+}
