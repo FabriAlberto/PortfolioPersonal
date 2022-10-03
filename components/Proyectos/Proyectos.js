@@ -2,6 +2,8 @@ import { Grid, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
 import Project from './Project'
+import styles from '../fontGradient.module.css'
+
 const projects=[
   { name:'sportCenter', img:'https://i.postimg.cc/vmJMyW92/sportcenter.png',github:'https://github.com/FabriAlberto/Ecommerce-reactJS',deploy:'https://sportcenter.vercel.app/',technologies:['React','Context','Bootstrap','Router','Firestore','Formik']},
   { name:'Wallet', img:'https://i.postimg.cc/JnXrHTMW/wallet.png',github:'https://github.com/FabriAlberto/jv-script',deploy:'https://fabrialberto.github.io/jv-script/',technologies:['HTML','CSS','Javascript','Bootstrap','APi','SweetAlert','Toastify',] },
@@ -12,14 +14,6 @@ const projects=[
   { name:'API-CRUD', img:'https://www.sololearn.com/Uploads/what_is_crud_2.jpg',github:'https://github.com/FabriAlberto/API-REST-CRUD',deploy:'',technologies:['NodeJs','Express','MongoDb']} ,
 ]
 
- const styleFont={
-    fontFamily:' sans-serif',
-    fontWeight:'bolder',
-    background: 'linear-gradient(135deg,#993488,#5028ff)',
-    WebkitTextFillColor:'transparent', WebkitBackgroundClip:'text',
-    fontWeight:'600'
-  }
-
 
 const Proyectos = () => {
   return (
@@ -27,7 +21,7 @@ const Proyectos = () => {
     <>
     <Box
      mt={8} display='flex' flexDirection='column' alignItems='center' justifyContent='center'>
-        <Typography id='projects' variant='h4' sx={styleFont}>
+        <Typography id='projects' variant='h4' className={styles.gradientFont}>
         PROYECTOS
         </Typography>
         <Grid container display='flex' mt={5}  alignItems='center' justifyContent='center'>

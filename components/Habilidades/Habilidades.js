@@ -1,14 +1,8 @@
 import React from 'react'
 import { Grid, Typography, Box } from '@mui/material'
 import CardTech from './CardTech'
-    
-const styleFont = {
-    fontFamily: ' sans-serif',
-    fontWeight: 'bolder',
-    background: 'linear-gradient(135deg,#993488,#5028ff)',
-    WebkitTextFillColor: 'transparent', WebkitBackgroundClip: 'text',
-    fontWeight: '600'
-}
+import styles from '../fontGradient.module.css'
+
 const technologies = [
     { name: 'HTML', img: 'https://i.postimg.cc/yNbQmwwG/pngwing-com-6.png' },
     { name: 'CSS', img: 'https://i.postimg.cc/8c8Z3LkB/pngwing-com-5.png' },
@@ -43,7 +37,7 @@ const Habilidades = () => {
 
         <Box width='100%'  mt={12} height='min100vh' display='flex' flexDirection='column' alignItems='center' justifyContent='center'  >
 
-            <Typography sx={styleFont} id='skills' variant='h4'>
+            <Typography className={styles.gradientFont}  id='skills' variant='h4'>
                 TECNOLOGIAS
             </Typography>
 
