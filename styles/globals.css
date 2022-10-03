@@ -56,11 +56,23 @@ label{
 
 
 @media screen and (max-width: 700px) {
+
   .imgStyled{
     width: 100%;
     animation: none;
   }
   #init{
     justify-content: center;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .navbarRoutes {
+    opacity: 0;
+    display:none;
+  }
+  .navbarResponsive{
+   display: block;
   }
 }

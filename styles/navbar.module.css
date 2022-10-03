@@ -1,8 +1,4 @@
-.navbarRoutes {
 
-    font-size: 1.1rem;
-
-}
 
 .navbarResponsive{
   display:none;
@@ -17,10 +13,7 @@
   
 }
 .styleLinkResponsive{
-
     text-decoration: none;
-  
-   
 }
 .styleIconResponsive{
     color:#632BE0;
@@ -32,10 +25,11 @@
 }
 
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
 
     .navbarRoutes {
-      display: none;
+      opacity: 0;
+      display:none;
     }
     .navbarResponsive{
      display: block;
