@@ -13,8 +13,6 @@ const Layout = ({ children }) => {
             </Head>
 
             
-          
-            
             <div className='container' style={{ backgroundColor: '#18181B', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
                 {children}
             </div>
