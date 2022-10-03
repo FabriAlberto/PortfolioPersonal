@@ -69,7 +69,6 @@ label{
 @media (max-width: 900px) {
 
   .navbarRoutes {
-    opacity: 0;
     display:none;
   }
   .navbarResponsive{
