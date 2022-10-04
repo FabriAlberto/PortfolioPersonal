@@ -1,18 +1,28 @@
 import React from 'react'
-import { Grid ,Typography,Button,Link} from '@mui/material'
+import { Grid, Typography, Button, Link } from '@mui/material'
 import ArrowCircleDownRoundedIcon from '@mui/icons-material/ArrowCircleDownRounded';
-import style from '../../styles/btn.module.css'
-import styleFont from'../../styles/fontGradient.module.css'
+import styleFont from '../../styles/fontGradient.module.css'
 
 const Main = () => {
- 
-  
-    const styleTypography={
-      textShadow:'0px 0px 10px #fff8, 0px 0px 5px #fff8'
+
+  const styleBtn = {
+    backgroundColor: "none",
+    border: "1px solid #8B3491",
+    color: "#A0A0A0",
+    transition: "all .8s",
+    "&:hover": {
+      transform: "scale(.98)",
+      background: "linear-gradient(139deg,#993488,#5E30AF)",
+      color: "#fff",
     }
+  };
+  
+  const styleTypography = {
+      textShadow: '0px 0px 10px #fff8, 0px 0px 5px #fff8'
+  }
    
-  return (
-   <Grid  container display='flex' alignItems='center' justifyContent='center' mt={12} sx={{minHeigt:'100vh'}}>
+  return(
+   <Grid  container display = 'flex' alignItems = 'center' justifyContent = 'center' mt = { 12} sx = {{ minHeigt:'100vh'}} >
       
        <Grid item md={6} display='flex' flexDirection='column' justifyContent='center'>
        <Typography  variant='h2' color='#fff8' sx={styleTypography}>
@@ -35,11 +45,11 @@ const Main = () => {
 
         <Grid sm={12} md={12} >
          <Link sx={{textDecoration:'none'}} href='https://drive.google.com/file/d/1GLNALJKchgZzmrLkqMikXWjJJGue4YFX/view?usp=sharing'  target="_blank" rel="noopener"> 
-         <Button className={style.btn}> <ArrowCircleDownRoundedIcon /> Descargar CV </Button>
+         <Button sx={styleBtn} > <ArrowCircleDownRoundedIcon /> Descargar CV </Button>
          </Link>
         </Grid>
 
-   </Grid>
+   </Grid >
   )
 }
 

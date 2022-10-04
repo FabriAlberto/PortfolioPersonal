@@ -16,7 +16,7 @@ const Contact = () => {
     return (
         <>
             <Box id='contact' sx={{ marginBottom: '20px',width:'100%',paddingBottom:'50px' }}  mt={12}  display='flex' flexDirection='column' alignItems='center' justifyContent='center'>
-            <Typography variant='h4' className={styles.gradientFont}>
+            <Typography variant='h4' className={styles.gradientFont} sx={{fontWeight:'600'}}>
                     CONTACTAME
                 </Typography>
                 <Grid container display='flex' alignItems='center' sm={12} md={12}  mt={13} justifyContent='center' flexWrap='wrap'>

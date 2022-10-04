@@ -37,7 +37,7 @@ const Habilidades = () => {
 
         <Box width='100%'  mt={12} height='min100vh' display='flex' flexDirection='column' alignItems='center' justifyContent='center'  >
 
-            <Typography className={styles.gradientFont}  id='skills' variant='h4'>
+            <Typography className={styles.gradientFont} sx={{fontWeight:'600'}}  id='skills' variant='h4'>
                 TECNOLOGIAS
             </Typography>
 

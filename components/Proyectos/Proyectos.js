@@ -21,7 +21,7 @@ const Proyectos = () => {
     <>
     <Box
      mt={8} display='flex' flexDirection='column' alignItems='center' justifyContent='center'>
-        <Typography id='projects' variant='h4' className={styles.gradientFont}>
+        <Typography id='projects' variant='h4' className={styles.gradientFont} sx={{fontWeight:'600'}}>
         PROYECTOS
         </Typography>
         <Grid container display='flex' mt={5}  alignItems='center' justifyContent='center'>
