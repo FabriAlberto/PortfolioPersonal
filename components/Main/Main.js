@@ -40,7 +40,7 @@ const Main = () => {
        </Grid>
 
        <Grid item sm={12} md={6} display='flex' alignItems='center' justifyContent='center'>
-         <img className='imgStyled' src='https://maxcode.vercel.app/static/media/header-img.fe6abadd0a518fd15552f72ba14ef5af.svg' alt='img-astronauta'/>
+         <img className='imgStyled' src='https://raw.githubusercontent.com/judygab/web-dev-projects/fc630d643b3cd16d77dcad71bcac7660cdd26731/personal-portfolio/src/assets/img/header-img.svg' alt='img-astronauta'/>
         </Grid>
 
         <Grid sm={12} md={12} >
